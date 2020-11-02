@@ -1,0 +1,22 @@
+{
+  "name": "m4.257-pec1",
+  "version": "1.0.0",
+  "description": "PEC 1, asignatura 'Herramientas HTML y CSS 1'",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo 'Everything is working as expected ✅\\nStart working on your project by running \\\\033[1mnpm run dev\\\\033[0m'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BorjaDM26/M4.257-PEC1.git"
+  },
+  "author": {
+    "name": "Borja Delgado Martín",
+    "email": "borjadm.26@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BorjaDM26/M4.257-PEC1/issues"
+  },
+  "homepage": "https://github.com/BorjaDM26/M4.257-PEC1#readme"
+}
