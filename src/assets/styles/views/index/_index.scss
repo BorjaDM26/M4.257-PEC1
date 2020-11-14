@@ -1,26 +1,26 @@
 .index-text-section {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 
-	& p {
-		width: 60%;
-	}
+  & p {
+    width: 60%;
+  }
 }
 
 .index-categories-section {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .categories-list {
-	list-style: none;
-	padding-left: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
 
-	& li {
-		padding: 0.5rem 2rem;
-		max-width: 180px;
-	}
+  & li {
+    max-width: 180px;
+    padding: .5rem 2rem;
+  }
 }

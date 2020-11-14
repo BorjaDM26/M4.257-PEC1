@@ -1,104 +1,104 @@
 @import '../../variables/colors';
 
 .technical-sheet {
-	background-color: $dark-bg;
-	border-bottom: 1px solid $main-border;
-	box-shadow: 0 0 4px 0 $black;
-	border-radius: 10px;
-	padding: 0 1rem;
+  padding: 0 1rem;
+  background-color: $dark-bg;
+  border-bottom: 1px solid $main-border;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 $black;
 
-	& ul {
-		list-style: none;
-		padding-left: 0;
+  & ul {
+    padding-left: 0;
+    list-style: none;
 
-		& ul {
-			padding-left: 1rem;
-		}
-	}
+    & ul {
+      padding-left: 1rem;
+    }
+  }
 
-	& li {
-		padding: 0.2rem 0;
-	}
+  & li {
+    padding: .2rem 0;
+  }
 
-	& > ul > li > p {
-		border-bottom: 1px solid black;
-		font-weight: 700;
-		width: 100%;
-	}
+  & > ul > li > p {
+    width: 100%;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+  }
 
-	/*Colores de la aplicación*/
-	.green & {
-		background-color: $green-dark-bg;
-		border-bottom: 1px solid $green-border;
-	}
-	.red & {
-		background-color: $red-dark-bg;
-		border-bottom: 1px solid $red-border;
-	}
+  /*Colores de la aplicación*/
+  .green & {
+    background-color: $green-dark-bg;
+    border-bottom: 1px solid $green-border;
+  }
+  .red & {
+    background-color: $red-dark-bg;
+    border-bottom: 1px solid $red-border;
+  }
 }
 
 /*Versión de escritorio*/
 @media screen and (min-width: 1024px) {
-	.technical-sheet {
-		box-sizing: border-box;
-		flex: 1 0 30%;
-		padding: 0 2rem;
-	}
+  .technical-sheet {
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 0 2rem;
+  }
 }
 
 .book {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-	&-cover {
-		text-align: center;
+  &-cover {
+    text-align: center;
 
-		&-container {
-			display: flex;
-			justify-content: center;
-		}
-	}
+    &-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
 
-	&-info p {
-		line-height: 1.8;
-		margin: 0.5rem 0;
-		width: 100%;
-	}
+  &-info p {
+    width: 100%;
+    margin: .5rem 0;
+    line-height: 1.8;
+  }
 }
 
 /*Versión de escritorio*/
 @media screen and (min-width: 1024px) {
-	.book {
-		display: flex;
-		flex-wrap: wrap;
+  .book {
+    display: flex;
+    flex-wrap: wrap;
 
-		& h2 {
-			flex: 0 0 100%;
-			text-align: left;
-		}
+    & h2 {
+      flex: 0 0 100%;
+      text-align: left;
+    }
 
-		&-info {
-			box-sizing: border-box;
-			flex: 1 0 70%;
-			padding-left: 4rem;
+    &-info {
+      flex: 1 0 70%;
+      box-sizing: border-box;
+      padding-left: 4rem;
 
-			& p {
-				text-align: justify;
-			}
-		}
-	}
+      & p {
+        text-align: justify;
+      }
+    }
+  }
 }
 
 .author-info {
-	display: block;
+  display: block;
 
-	& img {
-		float: left;
-		margin-right: 2rem;
-		border-radius: 50%;
-		max-width: 200px;
-		-webkit-shape-outside: circle();
-		shape-outside: circle();
-	}
+  & img {
+    float: left;
+    max-width: 200px;
+    margin-right: 2rem;
+    border-radius: 50%;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+  }
 }

@@ -5,7 +5,7 @@ module.exports = {
   ],
   "rules": {
     // Project init rules
-    "selector-nested-pattern": "^&",
+    // "selector-nested-pattern": "^&",
     "no-descending-specificity": null,
     "no-eol-whitespace": null,
     "declaration-empty-line-before": null,
