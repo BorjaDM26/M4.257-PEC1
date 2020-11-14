@@ -25,6 +25,16 @@
 		font-weight: 700;
 		width: 100%;
 	}
+
+	/*Colores de la aplicación*/
+	.green & {
+		background-color: $green-dark-bg;
+		border-bottom: 1px solid $green-border;
+	}
+	.red & {
+		background-color: $red-dark-bg;
+		border-bottom: 1px solid $red-border;
+	}
 }
 
 /*Versión de escritorio*/

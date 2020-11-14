@@ -36,4 +36,12 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
+
+	/*Colores de la aplicación*/
+	.green & {
+		background-color: $green-dark-bg;
+	}
+	.red & {
+		background-color: $red-dark-bg;
+	}
 }

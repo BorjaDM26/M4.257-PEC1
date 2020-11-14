@@ -8,6 +8,14 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	font-family: $font-family-sans-serif;
+
+	/*Colores de la aplicación*/
+	&.green {
+		background-color: $green-bg;
+	}
+	&.red {
+		background-color: $red-bg;
+	}
 }
 
 main {
