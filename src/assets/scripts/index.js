@@ -29,7 +29,6 @@ function initialisation() {
 ---------------------------------------------------------------------- */
 // Update background color
 function updateColor(color) {
-  console.log('Update', color);
   body.className = '';
   body.classList.add(color);
 	localStorage.setItem('bgColor', color);
@@ -41,7 +40,6 @@ function updateColor(color) {
 ---------------------------------------------------------------------- */
 // Clicked color container listener
 colorSelectorsContainer.addEventListener('click', function (e) {
-  console.log('Hans', e);
   const classList = e.target.classList;
 	if (classList.contains('color-selector')) {
     if(classList.contains(RED_COLOR)){
