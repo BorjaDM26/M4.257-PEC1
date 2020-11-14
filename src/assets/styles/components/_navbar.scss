@@ -1,0 +1,14 @@
+@import '../variables/colors';
+
+.navbar {
+	padding: 0 2rem;
+	background-color: $dark-bg;
+	border-bottom: 1px solid $main-border;
+	box-shadow: 0 0 4px 0 $black;
+
+	/*Versión de escritorio*/
+	@media screen and (min-width: 1024px) {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}

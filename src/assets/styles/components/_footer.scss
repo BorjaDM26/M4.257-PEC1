@@ -1,0 +1,39 @@
+@import '../variables/colors';
+
+.footer {
+	padding: 1rem 2rem;
+	background-color: $dark-bg;
+	box-shadow: 0 0 2px 0 $black;
+
+	&-first-row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&-links a {
+		padding: 0.5rem 0.75rem 0.5rem 0;
+		font-weight: bold;
+	}
+
+	&-copy {
+		margin: 0;
+		font-weight: bold;
+	}
+
+	&-second-row p {
+		font-weight: bold;
+		margin-bottom: 0.5rem;
+	}
+
+	&-resources {
+		margin: 0.5rem 0;
+		list-style: disclosure-closed;
+	}
+
+	/*Versión de escritorio*/
+	@media screen and (min-width: 1024px) {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}

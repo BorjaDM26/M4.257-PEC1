@@ -12,6 +12,7 @@
 @import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
 @import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
 
 // /**
 //  * Import functions and mixins
@@ -24,6 +25,7 @@
 //  * It's a best practice to use a partial for each page
 //  */
 @import 'components/components';
+@import 'modifiers/modifiers';
 @import 'views/views';
 
 // /**

@@ -1,0 +1,45 @@
+@import '../../variables/variables';
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: $main-bg;
+	color: $gray-darkest;
+	min-height: 100vh;
+	margin: 0;
+	font-family: $font-family-sans-serif;
+}
+
+main {
+	flex-grow: 1;
+	padding: 1rem 2rem 2rem;
+
+	/*Versión de escritorio*/
+	@media screen and (min-width: 1024px) {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+section > h2 {
+	flex: 0 0 100%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+
+	&:hover {
+		color: $dark-blue;
+	}
+}
